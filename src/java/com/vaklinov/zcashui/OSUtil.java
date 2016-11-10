@@ -141,10 +141,10 @@ public class OSUtil
 		
 		if (os == OS_TYPE.MAC_OS)
 		{
-			return new File(System.getProperty("user.home") + "/Library/Application Support/Zcash").getCanonicalPath();
+			return new File(System.getProperty("user.home") + "/Library/Application Support/zclassic").getCanonicalPath();
 		} else
 		{
-			return new File(System.getProperty("user.home") + "/.zcash").getCanonicalPath();
+			return new File(System.getProperty("user.home") + "/.zclassic").getCanonicalPath();
 		}
 	}
 
